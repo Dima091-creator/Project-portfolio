@@ -1,0 +1,151 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    background: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1150px;
+    height: 944px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 120px;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  nav a {
+    position: relative;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 2px;
+  }
+  
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color:   black; 
+    bottom: 0;
+    left: 0;
+    transition: width 0.7s ease-in-out;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  
+  .logo a{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    top: 12px;
+    position: relative;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0px;
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 88px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 1000px;
+  }
+  
+  .aboutme {
+    flex: 1;
+    padding-right: 30px;
+  }
+  
+  h1 {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .p1 {
+    font-size: 24px;
+    color: rgba(130, 130, 130, 1);
+    line-height: 1.5;
+  }
+  
+  .resume-button {
+    background-color: rgba(253, 196, 53, 1);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .resume-button:hover {
+    background-color: rgba(0, 0, 0, 0.398);
+  }
+  
+  .about-img img {
+    width: 524px;
+    height: 524px;
+    border-radius: 50%;
+    background-color: rgba(253, 196, 53, 1);
+  }
+  
+  .footer {
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: -100px;
+  }
+  
+  .ficons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .ficons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    filter: brightness(10) invert(1);
+  }
+  
+  .footer p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(130, 130, 130, 1);
+    margin-top: 16px;
+  }
+  
